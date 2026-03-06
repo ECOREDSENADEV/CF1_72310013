@@ -141,7 +141,7 @@
       .px-4.px-md-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8.order-lg-2
-            SlyderF(columnas="col-12 col-lg-6").p-4
+            SlyderF(columnas="col-12 col-lg-6").p-lg-4
               .bg-color-white.tarjeta.p-4.h-100.box-shadow.d-flex.flex-column.align-items-center
                 img(src='@/assets/curso/tema1/8.svg' alt='AvatarTop' style="max-width: 115px").mb-3
                 //- Contenedor del círculo centrado

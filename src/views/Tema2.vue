@@ -82,7 +82,7 @@
         p.mb-5 El acondicionamiento del terreno para palma se define según el análisis de suelo (textura, estructura y profundidad); si se requiere labranza, primero se deben reducir las malezas para facilitar la aireación y la preparación del suelo. A continuación, se detallarán cada una de las labores de preparación.
 
         .tarjeta--container.row.mb-5
-          .col-md.tarjeta.color-primario.bg-color-10.p-5.text-white(data-aos="flip-up")
+          .col-lg.tarjeta.color-primario.bg-color-10.p-5.text-white(data-aos="flip-up")
             .row.mb-5
               .col-lg
                 figure
@@ -91,7 +91,7 @@
             h2.mb-5 Limpieza del terreno
             p La adecuación del terreno inicia con la socola, que consiste en cortar plantas herbáceas o leñosas de bajo y mediano porte para facilitar el ingreso de maquinaria; posteriormente se talan los árboles grandes restantes, conservando las especies ubicadas en áreas de importancia ambiental y manteniendo corredores biológicos, y finalmente se retiran o trozan los residuos vegetales, organizándolos en arrumes longitudinales orientados de norte a sur.
         
-          .col-md.tarjeta.color-acento-contenido.bg-color-11.p-5(data-aos="flip-down")
+          .col-lg.tarjeta.color-acento-contenido.bg-color-11.p-5(data-aos="flip-down")
             .row.mb-5
               .col-lg
                 figure
