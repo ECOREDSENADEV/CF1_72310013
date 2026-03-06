@@ -25,9 +25,9 @@
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 450px !important  
+  width: 350px !important  
   @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+    width: 300px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -56,31 +56,29 @@ figcaption
 //////////Background_Color///////////
 .bg-color
   &-1
-    background-color: #F4EBFA
+    background-color: #E5F9F5
   &-2
-    background-color: #F5F4A4
+    background-color: #FFF4DA
   &-3
-    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(252, 252, 231, 1) 30%, rgba(252, 252, 231, 1) 70%, rgba(255, 255, 255, 1) 99%)
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(250, 240, 230, 1) 30%, rgba(250, 240, 230, 1) 70%, rgba(255, 255, 255, 1) 100%)
   &-4
-    background-color: #FAF9D1
+    background-color: #CBF4EB
   &-5
-    background-color: #88DDD8
+    background-color: #F6E2CE
   &-6
-    background-color: #C8A0E6
+    background-color: #FFC94A
   &-7
-    background-color: #634F72 !important
+    background-color: #7FE5CF
   &-8
-    background-color: #E6E51D !important
+    color: #B18C32 !important
   &-9
-    background-color: #E9D8F5
+    background-color: #DBDCC9
   &-10
-    background-color: #E6F8F7
+    background-color: #3F7266 !important
   &-11
-    color: #A09F14 !important
+    background-color: #EAB687 !important
   &-12
-    background-color: #CFF1EF
-  &-13
-    color: #57FCF5
+    color: #589F8F !important
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -120,15 +118,19 @@ figcaption
   &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
+  
+//////////COLOR_TEXTO_BOTON_REGRESAR///////////
+.barra-avance__boton--regresar span
+  color: white !important
 
 //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item 
-  background-color: #ECDEF6
-  border: #ECDEF6
+  background-color: #ECB4B4
+  border: #ECB4B4
 .slyder-a__bullets__item--active
-  background-color: #C8A0E6
+  background-color: #C92A2A
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
-  background-color: #FFAA00
+  background-color: #C92A2A
 .slyder-a__bullets__item
   @media screen and ( max-width: $bp-max-xs )
     margin: 0 5px
@@ -139,7 +141,7 @@ figcaption
   align-items: center
   position: relative
 .titulo-con-imagen__fondo
-  background-color: #E6E51D
+  background-color: #FFC94A
   border-radius: 30px
   padding: 10px 20px
   display: inline-flex
@@ -148,7 +150,7 @@ figcaption
   position: absolute
   left: 10px
   width: 50px
-  bottom: 0
+  top: -10px
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 50px
@@ -181,10 +183,10 @@ figcaption
 
 /////////////ACORDION/////////////
 .acordion__accion__btn--a
-  background-color: #FFAA00 !important
-  color: $color-sistema-texto
+  background-color: #C92A2A !important
+  color: $white
 .acordion__activo
-  background-color:  #F5F4A4 !important
+  background-color:  #FFE9B5 !important
 .acordion_titulo
   color: #fff !important
 .acordion__titulo 
@@ -194,7 +196,13 @@ figcaption
   .acordion__titulo 
     h3
       color: $color-sistema-texto !important
-    
+
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
 ///////////////TABLAS/////////////////// 
 .tbl
   table td
@@ -211,3 +219,33 @@ figcaption
   justify-content: center
   min-height: 80px // Ajusta este valor según el título más largo
   width: 100%
+
+.brbr
+  border-bottom: 1px solid #3F7266
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #F0F1E9
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #7FE5CF !important
+      color: $color-sistema-texto !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #CBF4EB
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #EAB687
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #EAB687

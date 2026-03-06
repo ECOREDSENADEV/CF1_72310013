@@ -36,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Previveros y viveros del cultivo de la palma de aceite',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Generalidades del cultivo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Selección de material vegetal',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Vivero',
+            hash: 't_1_3',
           },
         ],
       },
@@ -50,14 +60,35 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Siembra de palma de aceite en sitio definitivo',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Diseño de la planeación',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Labores de preparación del suelo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Trazado de la plantación',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Establecimiento de coberturas vegetales',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Siembra de plantas en sitio definitivo',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
