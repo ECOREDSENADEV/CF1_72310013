@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Cultivo de palma de aceite: previvero, vivero y siembra.',
+    Description:
+      'En este componente formativo el aprendiz conocerá las etapas del ciclo productivo de la palma de aceite, desde el reconocimiento del terreno, diseño de la plantación, diseño de los lotes productivos, la selección técnica del material de siembra y sustratos, hasta la adecuación estratégica del terreno mediante el trazado, drenaje, preparación de suelo y siembra de plantas en sitio definitivo. Dicha siembra comprende realizar un alistamiento en vivero, transporte de las plantas del vivero al lugar definitivo y trasplante.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },

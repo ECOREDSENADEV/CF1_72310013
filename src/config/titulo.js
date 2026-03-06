@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Cultivo de palma de aceite: previvero, vivero y siembra.'
